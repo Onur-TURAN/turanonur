@@ -1,0 +1,38 @@
+[
+  {
+    "listing": "/writeups/thm/index.html",
+    "items": []
+  },
+  {
+    "listing": "/writeups/htb/index.html",
+    "items": [
+      "/writeups/htb/era/index.html"
+    ]
+  },
+  {
+    "listing": "/writeups/general/index.html",
+    "items": []
+  },
+  {
+    "listing": "/academic/data-science/index.html",
+    "items": []
+  },
+  {
+    "listing": "/academic/cryptology/index.html",
+    "items": []
+  },
+  {
+    "listing": "/academic/artificial-intelligence/index.html",
+    "items": []
+  },
+  {
+    "listing": "/academic/cyber-security/index.html",
+    "items": []
+  },
+  {
+    "listing": "/writeups/index.html",
+    "items": [
+      "/writeups/htb/era/index.html"
+    ]
+  }
+]

