@@ -6,19 +6,12 @@
   {
     "listing": "/writeups/htb/index.html",
     "items": [
+      "/writeups/htb/editor/index.html",
       "/writeups/htb/era/index.html"
     ]
   },
   {
-    "listing": "/writeups/general/index.html",
-    "items": []
-  },
-  {
-    "listing": "/academic/data-science/index.html",
-    "items": []
-  },
-  {
-    "listing": "/academic/cryptology/index.html",
+    "listing": "/academic/cyber-security/index.html",
     "items": []
   },
   {
@@ -26,12 +19,21 @@
     "items": []
   },
   {
-    "listing": "/academic/cyber-security/index.html",
+    "listing": "/academic/cryptology/index.html",
+    "items": []
+  },
+  {
+    "listing": "/academic/data-science/index.html",
+    "items": []
+  },
+  {
+    "listing": "/writeups/general/index.html",
     "items": []
   },
   {
     "listing": "/writeups/index.html",
     "items": [
+      "/writeups/htb/editor/index.html",
       "/writeups/htb/era/index.html"
     ]
   }

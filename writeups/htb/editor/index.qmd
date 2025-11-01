@@ -1,0 +1,28 @@
+---
+title: "HTB: Editor Machine Writeup"
+description: "HackTheBox Era makinesi detaylı çözümü"
+author: "biyik"
+date: "2025-10-19"
+categories: [HackTheBox, Linux, Web, LFI, Privilege Escalation]
+format:
+    html:
+        code-fold: false
+        code-tools: true
+        toc: true
+        toc-depth: 3
+---
+
+# HTB Editor Machine Writeup
+
+Editor machine on the Hackthebox platform.
+
+---
+
+## Reconnaissance
+
+This section details the reconnaissance activities performed on the target system. First resolved host, secondly attack by target dns name privately for IP adrress.
+
+### Host Resolution
+
+![Host Resolution](img/recon_01.png)
+
