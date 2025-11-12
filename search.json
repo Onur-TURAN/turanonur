@@ -49,60 +49,11 @@
     "text": "Update the relevant software to the latest version.\nApply security patches regularly.\nChange default or weak credentials.\nStrengthen access controls to prevent unauthorized access.\nReview firewall (FW) rules and allow only necessary ports.\nThis vulnerability can be detected in both application logs and firewall logs in Splunk. Monitor especially for unusual traffic or unexpected access attempts.\n\n\n\n\n\nUse the latest version of the affected application.\nApply security patches regularly.\nChange default or weak credentials.\nStrengthen access controls to prevent unauthorized access.\nReview firewall (FW) rules and allow only necessary ports.\nThis vulnerability can be detected in application logs and Linux system logs in Splunk. Monitor especially for failed login attempts and unexpected process activities."
   },
   {
-    "objectID": "academic/index.html",
-    "href": "academic/index.html",
-    "title": "Academic Studies",
+    "objectID": "writeups/general/index.html",
+    "href": "writeups/general/index.html",
+    "title": "General Writeups",
     "section": "",
-    "text": "OverviewCryptologyCyber SecurityArtificial IntelligenceData Science\n\n\nThis section contains my academic works and research areas. My research focuses on modern computer science topics including cryptology, cyber security, artificial intelligence, and data science.\n\nCurrent Research Interests\n\nAdvanced encryption techniques and cryptographic protocols\nNetwork security and penetration testing methodologies\nMachine learning applications in security\nBig data analysis and visualization\n\n\n\nPublications & Projects\nYou can explore my work in different areas using the tabs above.\n\n\n\n\nResearch Focus\nCryptology is the foundation of modern secure communications. My work in this area includes:\n\nEncryption Algorithms: Study and implementation of symmetric and asymmetric encryption\nCryptographic Protocols: Analysis of secure communication protocols\nHash Functions: Research on collision-resistant hash functions\nDigital Signatures: Implementation of digital signature schemes\nBlockchain Technology: Applications of cryptography in distributed systems\n\nView all Cryptology projects →\n\n\n\n\nResearch Focus\nCyber security is critical in today’s interconnected world. My research includes:\n\nNetwork Security: Firewall configuration, intrusion detection systems\nPenetration Testing: Security assessment methodologies and tools\nVulnerability Analysis: Finding and analyzing security weaknesses\nIncident Response: Handling and recovery from security incidents\nSecurity Auditing: Comprehensive security evaluation frameworks\n\nView all Cyber Security projects →\n\n\n\n\nResearch Focus\nAI and machine learning are transforming technology. My work focuses on:\n\nMachine Learning: Supervised and unsupervised learning algorithms\nDeep Learning: Neural networks and advanced architectures\nNatural Language Processing: Text analysis and language models\nComputer Vision: Image recognition and processing\nReinforcement Learning: Decision-making and optimization\n\nView all AI projects →\n\n\n\n\nResearch Focus\nData science combines statistics, programming, and domain expertise. My research includes:\n\nData Analysis: Statistical analysis and hypothesis testing\nData Visualization: Creating meaningful visual representations\nStatistical Modeling: Predictive and descriptive models\nBig Data: Handling and processing large-scale datasets\nData Mining: Discovering patterns in complex data\n\nView all Data Science projects →"
-  },
-  {
-    "objectID": "academic/cyber-security/index.html",
-    "href": "academic/cyber-security/index.html",
-    "title": "Cyber Security",
-    "section": "",
-    "text": "Research and projects in the field of cyber security.\n\n\n\nNetwork Security\nPenetration Testing\nVulnerability Analysis\nIncident Response\nSecurity Auditing"
-  },
-  {
-    "objectID": "academic/cyber-security/index.html#topics",
-    "href": "academic/cyber-security/index.html#topics",
-    "title": "Cyber Security",
-    "section": "",
-    "text": "Network Security\nPenetration Testing\nVulnerability Analysis\nIncident Response\nSecurity Auditing"
-  },
-  {
-    "objectID": "academic/artificial-intelligence/index.html",
-    "href": "academic/artificial-intelligence/index.html",
-    "title": "Artificial Intelligence",
-    "section": "",
-    "text": "Projects in the field of artificial intelligence and machine learning.\n\n\n\nMachine Learning\nDeep Learning\nNatural Language Processing\nComputer Vision\nReinforcement Learning"
-  },
-  {
-    "objectID": "academic/artificial-intelligence/index.html#topics",
-    "href": "academic/artificial-intelligence/index.html#topics",
-    "title": "Artificial Intelligence",
-    "section": "",
-    "text": "Machine Learning\nDeep Learning\nNatural Language Processing\nComputer Vision\nReinforcement Learning"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "academic/cryptology/index.html",
-    "href": "academic/cryptology/index.html",
-    "title": "Cryptology",
-    "section": "",
-    "text": "Articles, notes, and projects in the field of cryptology.\n\n\n\nEncryption Algorithms\nCryptographic Protocols\nHash Functions\nDigital Signatures\nBlockchain Technology"
-  },
-  {
-    "objectID": "academic/cryptology/index.html#topics",
-    "href": "academic/cryptology/index.html#topics",
-    "title": "Cryptology",
-    "section": "",
-    "text": "Encryption Algorithms\nCryptographic Protocols\nHash Functions\nDigital Signatures\nBlockchain Technology"
+    "text": "General security topics, CVE analysis, and miscellaneous writeups."
   },
   {
     "objectID": "academic/data-science/index.html",
@@ -119,11 +70,74 @@
     "text": "Data Analysis\nData Visualization\nStatistical Modeling\nBig Data\nData Mining"
   },
   {
-    "objectID": "writeups/general/index.html",
-    "href": "writeups/general/index.html",
-    "title": "General Writeups",
+    "objectID": "academic/cryptology/index.html",
+    "href": "academic/cryptology/index.html",
+    "title": "Cryptology",
     "section": "",
-    "text": "General security topics, CVE analysis, and miscellaneous writeups."
+    "text": "Articles, notes, and projects in the field of cryptology.\n\n\n\nEncryption Algorithms\nCryptographic Protocols\nHash Functions\nDigital Signatures\nBlockchain Technology"
+  },
+  {
+    "objectID": "academic/cryptology/index.html#topics",
+    "href": "academic/cryptology/index.html#topics",
+    "title": "Cryptology",
+    "section": "",
+    "text": "Encryption Algorithms\nCryptographic Protocols\nHash Functions\nDigital Signatures\nBlockchain Technology"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "academic/artificial-intelligence/index.html",
+    "href": "academic/artificial-intelligence/index.html",
+    "title": "Artificial Intelligence",
+    "section": "",
+    "text": "Projects in the field of artificial intelligence and machine learning.\n\n\n\nMachine Learning\nDeep Learning\nNatural Language Processing\nComputer Vision\nReinforcement Learning"
+  },
+  {
+    "objectID": "academic/artificial-intelligence/index.html#topics",
+    "href": "academic/artificial-intelligence/index.html#topics",
+    "title": "Artificial Intelligence",
+    "section": "",
+    "text": "Machine Learning\nDeep Learning\nNatural Language Processing\nComputer Vision\nReinforcement Learning"
+  },
+  {
+    "objectID": "academic/cyber-security/index.html",
+    "href": "academic/cyber-security/index.html",
+    "title": "Cyber Security",
+    "section": "",
+    "text": "Research and projects in the field of cyber security.\n\n\n\nNetwork Security\nPenetration Testing\nVulnerability Analysis\nIncident Response\nSecurity Auditing"
+  },
+  {
+    "objectID": "academic/cyber-security/index.html#topics",
+    "href": "academic/cyber-security/index.html#topics",
+    "title": "Cyber Security",
+    "section": "",
+    "text": "Network Security\nPenetration Testing\nVulnerability Analysis\nIncident Response\nSecurity Auditing"
+  },
+  {
+    "objectID": "academic/index.html",
+    "href": "academic/index.html",
+    "title": "Academic Studies",
+    "section": "",
+    "text": "OverviewCryptologyCyber SecurityArtificial IntelligenceData Science\n\n\nThis section contains my academic works and research areas. My research focuses on modern computer science topics including cryptology, cyber security, artificial intelligence, and data science.\n\nCurrent Research Interests\n\nAdvanced encryption techniques and cryptographic protocols\nNetwork security and penetration testing methodologies\nMachine learning applications in security\nBig data analysis and visualization\n\n\n\nPublications & Projects\nYou can explore my work in different areas using the tabs above.\n\n\n\n\nResearch Focus\nCryptology is the foundation of modern secure communications. My work in this area includes:\n\nEncryption Algorithms: Study and implementation of symmetric and asymmetric encryption\nCryptographic Protocols: Analysis of secure communication protocols\nHash Functions: Research on collision-resistant hash functions\nDigital Signatures: Implementation of digital signature schemes\nBlockchain Technology: Applications of cryptography in distributed systems\n\nView all Cryptology projects →\n\n\n\n\nResearch Focus\nCyber security is critical in today’s interconnected world. My research includes:\n\nNetwork Security: Firewall configuration, intrusion detection systems\nPenetration Testing: Security assessment methodologies and tools\nVulnerability Analysis: Finding and analyzing security weaknesses\nIncident Response: Handling and recovery from security incidents\nSecurity Auditing: Comprehensive security evaluation frameworks\n\nView all Cyber Security projects →\n\n\n\n\nResearch Focus\nAI and machine learning are transforming technology. My work focuses on:\n\nMachine Learning: Supervised and unsupervised learning algorithms\nDeep Learning: Neural networks and advanced architectures\nNatural Language Processing: Text analysis and language models\nComputer Vision: Image recognition and processing\nReinforcement Learning: Decision-making and optimization\n\nView all AI projects →\n\n\n\n\nResearch Focus\nData science combines statistics, programming, and domain expertise. My research includes:\n\nData Analysis: Statistical analysis and hypothesis testing\nData Visualization: Creating meaningful visual representations\nStatistical Modeling: Predictive and descriptive models\nBig Data: Handling and processing large-scale datasets\nData Mining: Discovering patterns in complex data\n\nView all Data Science projects →"
+  },
+  {
+    "objectID": "writeups/htb/conversor/index.html",
+    "href": "writeups/htb/conversor/index.html",
+    "title": "HTB: Conversor Machine Walkthrougs",
+    "section": "",
+    "text": "Please you planning challenge for yourself. This is Walkthrougs is not for copy, only researcher document\n\n\n\nThis section details the reconnaissance activities performed on the target system. We must slowly and only recon with tactical analysis.\n\n\n\n\n\nHost Resoluiton\n\n\nnmap -A -sC -sV -p80,443,445,22 10.XX.XX.XX\n\n\n\nLet scan pipe bash under to backround with nohup.\nnohup nmap -sS -sC -sV -p- conversor.htb -oN nmap.txt -vvv &\nIf I want to see the instant output of the scan results, I can run this command whenever I want. This provides a clean workspace and the ability to use only one terminal.\ncat nohup.out | grep Discovered\nDiscovered open port 22/tcp on 10.XX.XX.XX\nDiscovered open port 80/tcp on 10.XX.XX.XX\n# Nmap 7.95 scan initiated Wed Nov 12 16:59:10 2025 as: /usr/lib/nmap/nmap --privileged -sS -sC -sV -p- -oN nmap.txt -vvv conversor.htb\nNmap scan report for conversor.htb (10.XX.XX.XX)\nHost is up, received echo-reply ttl 63 (0.14s latency).\nScanned at 2025-11-12 16:59:10 +03 for 388s\nNot shown: 65533 closed tcp ports (reset)\nPORT   STATE SERVICE REASON         VERSION\n22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)\n| ssh-hostkey: \n|   256 01:74:26:39:47:bc:6a:e2:cb:12:8b:71:84:9c:f8:5a (ECDSA)\n| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ9JqBn+xSQHg4I+jiEo+FiiRUhIRrVFyvZWz1pynUb/txOEximgV3lqjMSYxeV/9hieOFZewt/ACQbPhbR/oaE=\n|   256 3a:16:90:dc:74:d8:e3:c4:51:36:e2:08:06:26:17:ee (ED25519)\n|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIR1sFcTPihpLp0OemLScFRf8nSrybmPGzOs83oKikw+\n80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.52\n|_http-server-header: Apache/2.4.52 (Ubuntu)\n| http-title: Login\n|_Requested resource was /login\n| http-methods: \n|_  Supported Methods: OPTIONS GET HEAD\nService Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel\n\nRead data files from: /usr/share/nmap\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\n# Nmap done at Wed Nov 12 17:05:38 2025 -- 1 IP address (1 host up) scanned in 388.06 seconds\nWell anyway, time for step 2 at the Recon.\nWe are now performing directory analysis with ffuf. However, we need to check the analysis with network bandwidth and response time. So this is issue developed small script with python. and analyzed\npython3 main.py --url http://conversor.htb\n\n*** ffuf -t tester (please use only permitted purposes) ***\n\ntarget URL: http://conversor.htb\ntarget for request by URL: http://conversor.htb\nHost header to be sent: (absent)\n[1/8] status=200 time=0.540s size=722\n[2/8] status=200 time=0.614s size=722\n[3/8] status=200 time=0.535s size=722\n[4/8] status=200 time=0.530s size=722\n[5/8] status=200 time=0.480s size=722\n[6/8] status=200 time=0.533s size=722\n[7/8] status=200 time=0.644s size=722\n[8/8] status=200 time=0.524s size=722\n\n--- summary (bybiyik) ---\nAvarage response time: 0.550 s (medyan 0.534 s, stdev 0.049)\nAvarage response size: 722 bytes\n\n--- Hesaplama ---\nTarget RPS: 30.0 req/s\nbasic t = RPS * avg_response_time = 30.0 * 0.550 = 16.50\nSecurity factory (50%) applied: t_adjusted = 24.75\napproximately t (integer): 25\nestimated bandwidth requirement: 31.73 KB/s\n\ndone.\nlet use -t 25 count.\nffuf -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt -u http://conversor.htb/FUZZ -e .php,.html,.txt,.js,.json,.xml,.bak,.old -fc 404,403 -t 25 -o ffuf.txt\n\n        /'___\\  /'___\\           /'___\\       \n       /\\ \\__/ /\\ \\__/  __  __  /\\ \\__/       \n       \\ \\ ,__\\\\ \\ ,__\\/\\ \\/\\ \\ \\ \\ ,__\\      \n        \\ \\ \\_/ \\ \\ \\_/\\ \\ \\_\\ \\ \\ \\ \\_/      \n         \\ \\_\\   \\ \\_\\  \\ \\____/  \\ \\_\\       \n          \\/_/    \\/_/   \\/___/    \\/_/       \n\n       v2.1.0-dev\n________________________________________________\n\n :: Method           : GET\n :: URL              : http://conversor.htb/FUZZ\n :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt\n :: Extensions       : .php .html .txt .js .json .xml .bak .old \n :: Output file      : ffuf.txt\n :: File format      : json\n :: Follow redirects : false\n :: Calibration      : false\n :: Timeout          : 10\n :: Threads          : 25\n :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500\n :: Filter           : Response status: 404,403\n________________________________________________\n\nlogout                  [Status: 302, Size: 199, Words: 18, Lines: 6, Duration: 59ms]\nregister                [Status: 200, Size: 726, Words: 30, Lines: 21, Duration: 61ms]\nlogin                   [Status: 200, Size: 722, Words: 30, Lines: 22, Duration: 65ms]\nabout                   [Status: 200, Size: 2842, Words: 577, Lines: 81, Duration: 82ms]\njavascript              [Status: 301, Size: 319, Words: 20, Lines: 10, Duration: 56ms]\nconvert                 [Status: 405, Size: 153, Words: 16, Lines: 6, Duration: 101ms]\n:: Progress: [505458/505458] :: Job [1/1] :: 326 req/sec :: Duration: [0:23:34] :: Errors: 0 ::"
+  },
+  {
+    "objectID": "writeups/htb/conversor/index.html#reconnaissance",
+    "href": "writeups/htb/conversor/index.html#reconnaissance",
+    "title": "HTB: Conversor Machine Walkthrougs",
+    "section": "",
+    "text": "This section details the reconnaissance activities performed on the target system. We must slowly and only recon with tactical analysis.\n\n\n\n\n\nHost Resoluiton\n\n\nnmap -A -sC -sV -p80,443,445,22 10.XX.XX.XX\n\n\n\nLet scan pipe bash under to backround with nohup.\nnohup nmap -sS -sC -sV -p- conversor.htb -oN nmap.txt -vvv &\nIf I want to see the instant output of the scan results, I can run this command whenever I want. This provides a clean workspace and the ability to use only one terminal.\ncat nohup.out | grep Discovered\nDiscovered open port 22/tcp on 10.XX.XX.XX\nDiscovered open port 80/tcp on 10.XX.XX.XX\n# Nmap 7.95 scan initiated Wed Nov 12 16:59:10 2025 as: /usr/lib/nmap/nmap --privileged -sS -sC -sV -p- -oN nmap.txt -vvv conversor.htb\nNmap scan report for conversor.htb (10.XX.XX.XX)\nHost is up, received echo-reply ttl 63 (0.14s latency).\nScanned at 2025-11-12 16:59:10 +03 for 388s\nNot shown: 65533 closed tcp ports (reset)\nPORT   STATE SERVICE REASON         VERSION\n22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)\n| ssh-hostkey: \n|   256 01:74:26:39:47:bc:6a:e2:cb:12:8b:71:84:9c:f8:5a (ECDSA)\n| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ9JqBn+xSQHg4I+jiEo+FiiRUhIRrVFyvZWz1pynUb/txOEximgV3lqjMSYxeV/9hieOFZewt/ACQbPhbR/oaE=\n|   256 3a:16:90:dc:74:d8:e3:c4:51:36:e2:08:06:26:17:ee (ED25519)\n|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIR1sFcTPihpLp0OemLScFRf8nSrybmPGzOs83oKikw+\n80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.52\n|_http-server-header: Apache/2.4.52 (Ubuntu)\n| http-title: Login\n|_Requested resource was /login\n| http-methods: \n|_  Supported Methods: OPTIONS GET HEAD\nService Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel\n\nRead data files from: /usr/share/nmap\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\n# Nmap done at Wed Nov 12 17:05:38 2025 -- 1 IP address (1 host up) scanned in 388.06 seconds\nWell anyway, time for step 2 at the Recon.\nWe are now performing directory analysis with ffuf. However, we need to check the analysis with network bandwidth and response time. So this is issue developed small script with python. and analyzed\npython3 main.py --url http://conversor.htb\n\n*** ffuf -t tester (please use only permitted purposes) ***\n\ntarget URL: http://conversor.htb\ntarget for request by URL: http://conversor.htb\nHost header to be sent: (absent)\n[1/8] status=200 time=0.540s size=722\n[2/8] status=200 time=0.614s size=722\n[3/8] status=200 time=0.535s size=722\n[4/8] status=200 time=0.530s size=722\n[5/8] status=200 time=0.480s size=722\n[6/8] status=200 time=0.533s size=722\n[7/8] status=200 time=0.644s size=722\n[8/8] status=200 time=0.524s size=722\n\n--- summary (bybiyik) ---\nAvarage response time: 0.550 s (medyan 0.534 s, stdev 0.049)\nAvarage response size: 722 bytes\n\n--- Hesaplama ---\nTarget RPS: 30.0 req/s\nbasic t = RPS * avg_response_time = 30.0 * 0.550 = 16.50\nSecurity factory (50%) applied: t_adjusted = 24.75\napproximately t (integer): 25\nestimated bandwidth requirement: 31.73 KB/s\n\ndone.\nlet use -t 25 count.\nffuf -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt -u http://conversor.htb/FUZZ -e .php,.html,.txt,.js,.json,.xml,.bak,.old -fc 404,403 -t 25 -o ffuf.txt\n\n        /'___\\  /'___\\           /'___\\       \n       /\\ \\__/ /\\ \\__/  __  __  /\\ \\__/       \n       \\ \\ ,__\\\\ \\ ,__\\/\\ \\/\\ \\ \\ \\ ,__\\      \n        \\ \\ \\_/ \\ \\ \\_/\\ \\ \\_\\ \\ \\ \\ \\_/      \n         \\ \\_\\   \\ \\_\\  \\ \\____/  \\ \\_\\       \n          \\/_/    \\/_/   \\/___/    \\/_/       \n\n       v2.1.0-dev\n________________________________________________\n\n :: Method           : GET\n :: URL              : http://conversor.htb/FUZZ\n :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt\n :: Extensions       : .php .html .txt .js .json .xml .bak .old \n :: Output file      : ffuf.txt\n :: File format      : json\n :: Follow redirects : false\n :: Calibration      : false\n :: Timeout          : 10\n :: Threads          : 25\n :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500\n :: Filter           : Response status: 404,403\n________________________________________________\n\nlogout                  [Status: 302, Size: 199, Words: 18, Lines: 6, Duration: 59ms]\nregister                [Status: 200, Size: 726, Words: 30, Lines: 21, Duration: 61ms]\nlogin                   [Status: 200, Size: 722, Words: 30, Lines: 22, Duration: 65ms]\nabout                   [Status: 200, Size: 2842, Words: 577, Lines: 81, Duration: 82ms]\njavascript              [Status: 301, Size: 319, Words: 20, Lines: 10, Duration: 56ms]\nconvert                 [Status: 405, Size: 153, Words: 16, Lines: 6, Duration: 101ms]\n:: Progress: [505458/505458] :: Job [1/1] :: 326 req/sec :: Duration: [0:23:34] :: Errors: 0 ::"
   },
   {
     "objectID": "writeups/htb/era/index.html",

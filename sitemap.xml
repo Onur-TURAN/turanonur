@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://onur-turan.github.io/writeups/thm/index.html</loc>
+    <loc>https://turanonur.com/writeups/thm/index.html</loc>
     <lastmod>2025-10-29T01:20:04.545Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/writeups/htb/index.html</loc>
+    <loc>https://turanonur.com/writeups/htb/index.html</loc>
     <lastmod>2025-10-29T01:20:04.545Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/writeups/htb/editor/index.html</loc>
-    <lastmod>2025-11-01T21:24:42.978Z</lastmod>
+    <loc>https://turanonur.com/writeups/htb/editor/index.html</loc>
+    <lastmod>2025-11-12T13:45:39.551Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/academic/index.html</loc>
+    <loc>https://turanonur.com/writeups/general/index.html</loc>
+    <lastmod>2025-10-29T01:20:04.545Z</lastmod>
+  </url>
+  <url>
+    <loc>https://turanonur.com/academic/data-science/index.html</loc>
     <lastmod>2025-10-29T01:20:04.543Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/academic/cyber-security/index.html</loc>
+    <loc>https://turanonur.com/academic/cryptology/index.html</loc>
+    <lastmod>2025-10-29T01:20:04.535Z</lastmod>
+  </url>
+  <url>
+    <loc>https://turanonur.com/about.html</loc>
+    <lastmod>2025-10-29T01:20:04.535Z</lastmod>
+  </url>
+  <url>
+    <loc>https://turanonur.com/academic/artificial-intelligence/index.html</loc>
+    <lastmod>2025-10-29T01:20:04.535Z</lastmod>
+  </url>
+  <url>
+    <loc>https://turanonur.com/academic/cyber-security/index.html</loc>
     <lastmod>2025-10-29T01:20:04.542Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/academic/artificial-intelligence/index.html</loc>
-    <lastmod>2025-10-29T01:20:04.535Z</lastmod>
-  </url>
-  <url>
-    <loc>https://onur-turan.github.io/about.html</loc>
-    <lastmod>2025-10-29T01:20:04.535Z</lastmod>
-  </url>
-  <url>
-    <loc>https://onur-turan.github.io/academic/cryptology/index.html</loc>
-    <lastmod>2025-10-29T01:20:04.535Z</lastmod>
-  </url>
-  <url>
-    <loc>https://onur-turan.github.io/academic/data-science/index.html</loc>
+    <loc>https://turanonur.com/academic/index.html</loc>
     <lastmod>2025-10-29T01:20:04.543Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/writeups/general/index.html</loc>
-    <lastmod>2025-10-29T01:20:04.545Z</lastmod>
+    <loc>https://turanonur.com/writeups/htb/conversor/index.html</loc>
+    <lastmod>2025-11-12T15:04:16.363Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/writeups/htb/era/index.html</loc>
+    <loc>https://turanonur.com/writeups/htb/era/index.html</loc>
     <lastmod>2025-11-01T18:32:00.490Z</lastmod>
   </url>
   <url>
-    <loc>https://onur-turan.github.io/writeups/index.html</loc>
+    <loc>https://turanonur.com/writeups/index.html</loc>
     <lastmod>2025-10-29T01:20:04.545Z</lastmod>
   </url>
 </urlset>
